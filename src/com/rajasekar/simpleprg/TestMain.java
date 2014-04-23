@@ -13,6 +13,8 @@ public class TestMain {
 		
 		System.out.println("Commit7");
 		
+		System.out.println("Trying for rebase7");
+		
 
 	}
 
