@@ -7,6 +7,8 @@ public class StringExample {
 		
 		StringBuilder sb = new StringBuilder();
 		System.out.println(sb.toString());
+		
+		System.out.println("Added the files in windows os eclipse");
 
 	}
 
