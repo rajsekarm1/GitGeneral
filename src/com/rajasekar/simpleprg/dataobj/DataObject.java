@@ -4,13 +4,13 @@ import java.util.List;
 
 public class DataObject {
 	
-	private int count;
+	public int count;
 	
-	private String[] strArray;
+	public String[] strArray;
 	
-	private List list;
+	public List list;
 	
-	public int getCount() {
+	/*public int getCount() {
 		return count;
 	}
 
@@ -40,7 +40,7 @@ public class DataObject {
 
 	public void setStr(String str) {
 		this.str = str;
-	}
+	}*/
 
 	private String str;
 	

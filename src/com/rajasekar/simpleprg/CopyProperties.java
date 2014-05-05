@@ -15,14 +15,14 @@ public class CopyProperties {
 		
 		DataObject srcdatao = new DataObject();
 		DataObject destdatao = new DataObject();
-		srcdatao.setCount(4);
+		srcdatao.count = 4;
 		List list = new ArrayList();
 		list.add("1");
 		list.add("2");
 		list.add("3");
-		srcdatao.setList(list);
-		srcdatao.setStr("raja");
-		srcdatao.setStrArray(new String[]{"rajasekar","sathya"});	
+		srcdatao.list = list;
+		srcdatao.strArray = new String[]{"rajasekar","sathya"};
+		
 		PropertyUtilsBean bean = new PropertyUtilsBean();
 		bean.copyProperties(destdatao,srcdatao);
 		System.out.println(srcdatao);
