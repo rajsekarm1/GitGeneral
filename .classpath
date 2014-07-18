@@ -4,5 +4,7 @@
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/commons-beanutils-1.9.1.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/jnbac_v35.jar"/>
+	<classpathentry kind="lib" path="lib/mtnm_v35.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
